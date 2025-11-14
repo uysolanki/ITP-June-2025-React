@@ -4,6 +4,7 @@ import products from '../data/products.js'
 import Menubar from './Menubar.jsx'
 import SearchBar from './SearchBar.jsx'
 const AllProducts = () => {
+
     const [prods, setProds] = useState(products)
     const [buprods, setBuprods] = useState(products)
     //console.log(products)
@@ -43,7 +44,6 @@ const AllProducts = () => {
         else {
             setProds(buprods);
         }
-
     }
     return (
         <>
