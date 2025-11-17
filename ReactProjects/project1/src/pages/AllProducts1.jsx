@@ -2,8 +2,9 @@ import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 
 import './AllProducts.css'
-import SearchBar from './SearchBar'
-import Menubar from './Menubar'
+import SearchBar from '../components/SearchBar'
+import Menubar from '../components/Menubar'
+
 const AllProducts1 = () => {
 
     const [prods, setProds] = useState([])
