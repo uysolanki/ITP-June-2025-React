@@ -12,7 +12,7 @@ const AllProducts1 = () => {
     useEffect(
         ()=>{
             loadData();
-        },[]               //dependency array
+        },[]            //dependency array
                         //[]    -   once when the component loads
     )                   //[state var] - once each time the mentioned state var modifies
                         //done provide the dependency array - once each time any state var modifies
