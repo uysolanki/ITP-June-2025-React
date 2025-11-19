@@ -9,6 +9,8 @@ import LandingPage from './pages/LandingPage'
 import Login from './pages/Login'
 import Signup from './pages/Signup'
 import Navbar1 from './components/Navbar1'
+import AllProducts2 from './pages/AllProducts2'
+import SingleProduct from './pages/SingleProduct'
 
 const App = () => {
   return (
@@ -19,8 +21,9 @@ const App = () => {
                   <Route path="/" element={<LandingPage/>} />
                   <Route path="/login" element={<Login/>} />
                   <Route path="/signup" element={<Signup/>} />
-                  <Route path="/shop" element={<AllProducts1/>} />
+                  <Route path="/shop" element={<AllProducts2/>} />
                   <Route path="/add" element={<AddProduct/>} />
+                  <Route path="/single/:pid" element={<SingleProduct/>} />
           </Routes>
       </Router>
      
