@@ -11,6 +11,8 @@ import Signup from './pages/Signup'
 import Navbar1 from './components/Navbar1'
 import AllProducts2 from './pages/AllProducts2'
 import SingleProduct from './pages/SingleProduct'
+import AllProducts3 from './pages/AllProducts3'
+import SingleProduct1 from './pages/SingleProduct1'
 
 const App = () => {
   return (
@@ -21,9 +23,9 @@ const App = () => {
                   <Route path="/" element={<LandingPage/>} />
                   <Route path="/login" element={<Login/>} />
                   <Route path="/signup" element={<Signup/>} />
-                  <Route path="/shop" element={<AllProducts2/>} />
+                  <Route path="/shop" element={<AllProducts3/>} />
                   <Route path="/add" element={<AddProduct/>} />
-                  <Route path="/single/:pid" element={<SingleProduct/>} />
+                  <Route path="/single/:pid" element={<SingleProduct1/>} />
           </Routes>
       </Router>
      
