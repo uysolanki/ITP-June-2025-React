@@ -13,6 +13,7 @@ import AllProducts2 from './pages/AllProducts2'
 import SingleProduct from './pages/SingleProduct'
 import AllProducts3 from './pages/AllProducts3'
 import SingleProduct1 from './pages/SingleProduct1'
+import SingleProduct2 from './pages/SingleProduct2'
 
 const App = () => {
   return (
@@ -25,7 +26,7 @@ const App = () => {
                   <Route path="/signup" element={<Signup/>} />
                   <Route path="/shop" element={<AllProducts3/>} />
                   <Route path="/add" element={<AddProduct/>} />
-                  <Route path="/single/:pid" element={<SingleProduct1/>} />
+                  <Route path="/single/:pid" element={<SingleProduct2/>} />
           </Routes>
       </Router>
      
