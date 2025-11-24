@@ -5,6 +5,7 @@ import {  useParams } from 'react-router-dom'
 import axios from 'axios'
 import { useContext } from 'react'
 import ProductContext from '../contexts/ProductContext'
+import Breadcrumbs from '../components/Breadcrumbs'
 const SingleProduct1 = () => {
 
     const {products}=useContext(ProductContext)
@@ -23,6 +24,7 @@ const SingleProduct1 = () => {
   return (
     <>
     {/* <h1>Single Page Loading</h1> */}
+        <Breadcrumbs product={product}/>
         <Product product={product}/> 
     </>
   )

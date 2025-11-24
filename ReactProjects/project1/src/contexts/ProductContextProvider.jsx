@@ -21,8 +21,8 @@ function ProductContextProvider({children})
         }
     }
 
-
-    let sharedData = {products};          //put all the data into an object
+    let car="Audi"
+    let sharedData = {products,car};          //put all the data into an object
   return (
    
    <ProductContext.Provider value={sharedData}>	
